@@ -1,6 +1,8 @@
 # web-para-dos
 Pagina web para dos
 
+link: https://daniel-gallardo-co.github.io/web-para-dos/
+
 Este repositorio contiene el código fuente de una página web que utiliza cookies para recopilar información del usuario. La página web tiene dos botones, uno para aceptar las cookies y otro para rechazarlas.
 
 ## Funcionalidades
