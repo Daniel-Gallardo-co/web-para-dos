@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  width: 450px;
+  height: 60px;
+  display: block;
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#about-agile {
+  margin-top: 20px;
+}
+
+#about-agile h2 {
+  text-align: center;
+}
+
+#about-agile p {
+  text-align: justify;
+}
+
+#about-agile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about-agile li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}

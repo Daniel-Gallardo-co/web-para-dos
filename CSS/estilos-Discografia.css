@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #494949; /* Cambia el color de fondo a un tono más oscuro */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333232;
+    color: #424141;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fdfdfd;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #f1efef;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #2e2e2e;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .logo {
+    width: 450px;
+    height: 60px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+
+  .album {
+    margin-bottom: 40px;
+  }
+  
+  .album img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .album h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .album p {
+    line-height: 1.5;
+  }
+  
+  .album a {
+    display: inline-block;
+    background-color: #333;
+    color: #f3f3f3;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  footer {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+  }

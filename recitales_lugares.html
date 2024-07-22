@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <img class="logo" src="Imagenes/Metallica-logo.png">
+  <link rel="stylesheet" href="CSS/estilos-recitales_lugares.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Aplicar un Efecto JQuery
+      $('h1').fadeIn(2000);
+      
+      // Aplicar un Widgets
+      $('#recitales-table').DataTable({
+        "language": {
+          "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json"
+        }
+      });
+      
+      // Aplicar una Interacción
+      $('table tr').on('mouseover', function() {
+        $(this).css('background-color', 'grey');
+      }).on('mouseout', function() {
+        $(this).css('background-color', 'black');
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recitales_lugares.html">Recitales</a></li>
+        <li><a href="discografia.html">Discografia</a></li>
+        <li><a href="Premios.html">Premios</a></li>
+        <li><a href="Acerca de.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 style="display: none;">Recitales</h1>
+    <body>
+      <h1 style="display: none;">Historial de Recitales</h1>
+  
+      <h2>Tours de Metallica en los años 1980</h2>
+      <table id="recitales-table">
+          <tr>
+              <th>Año</th>
+              <th>Nombre del Tour</th>
+          </tr>
+          <tr>
+              <td>1983-1984</td>
+              <td>Kill 'Em All for One</td>
+          </tr>
+          <tr>
+              <td>1984</td>
+              <td>Seven Dates of Hell</td>
+          </tr>
+          <tr>
+              <td>1984</td>
+              <td>Bang That Head That Doesn't Bang</td>
+          </tr>
+          <tr>
+              <td>1985</td>
+              <td>Ride the Lightning Tour</td>
+          </tr>
+          <tr>
+              <td>1986-1987</td>
+              <td>Damage Inc. Tour</td>
+          </tr>
+          <tr>
+              <td>1987</td>
+              <td>Monsters of Rock '87</td>
+          </tr>
+          <tr>
+              <td>1988</td>
+              <td>Monsters of Rock '88</td>
+          </tr>
+          <tr>
+              <td>1988-1989</td>
+              <td>Damaged Justice Tour</td>
+          </tr>
+      </table>
+  
+      <h2>Tours de Metallica en los años 1990</h2>
+      <table id="recitales-table">
+          <tr>
+              <th>Año</th>
+              <th>Nombre del Tour</th>
+          </tr>
+          <tr>
+              <td>1990</td>
+              <td>Tour 1990</td>
+          </tr>
+          <tr>
+              <td>1991</td>
+              <td>Monsters of Rock '91</td>
+          </tr>
+          <tr>
+              <td>1991-1992</td>
+              <td>Wherever We May Roam Tour</td>
+          </tr>
+          <tr>
+              <td>1992</td>
+              <td>Guns N' Roses/Metallica Stadium Tour</td>
+          </tr>
+      </table>
+    </main>
+  <footer>
+    <p>&copy; 2024 Metallica. Todos los derechos reservados.</p>
+    <p>&copy; Duenos del sitio ( Daniel gallardo y Lancelot Castro )</p>

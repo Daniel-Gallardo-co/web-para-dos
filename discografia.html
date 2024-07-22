@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img class="logo" src="Imagenes/Metallica-logo.png">
+    <link rel="stylesheet" href="CSS/estilos-Discografia.css">
+    <script src="JS/hide-discografia.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recitales_lugares.html">Recitales</a></li>
+                <li><a href="discografia.html">Discografia</a></li>
+                <li><a href="Premios.html">Premios</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="album">
+            <h2>Discografía</h2>
+
+            <h2>Kill 'Em All (1983)</h2>
+            <img src="Imagenes/album1.webp" alt="Kill 'Em All">
+            <p>El debut explosivo que marcó el inicio de una era.</p>
+            <ul class="tracklist" id="lista-kill-em-all">
+                <li>1. Hit the Lights</li>
+                <li>2. The Four Horsemen</li>
+                <li>3. Metal Militia</li>
+                <li>4. Phantom of the Opera</li>
+                <li>5. Escape</li>
+                <li>6. Seek & Destroy</li>
+                <li>7. Whiplash</li>
+                <li>8. Jump into the Fire</li>
+                <li>9. No Remorse</li>
+                <li>10. Seek & Destroy (Live)</li>
+            </ul>
+            <button onclick="mostrarOcultarKillEmAll()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Ride the Lightning (1984)</h2>
+            <img src="Imagenes/album2.jpg" alt="Ride the Lightning">
+            <p>Un viaje a través de la oscuridad y la complejidad emocional.</p>
+            <ul class="tracklist" id="lista-rtl">
+                <li>1. Fight Fire with Fire</li>
+                <li>2. Ride the Lightning</li>
+                <li>3. For Whom the Bell Tolls</li>
+                <li>4. Fade to Black</li>
+                <li>5. Trapped Under Ice</li>
+                <li>6. Escape</li>
+                <li>7. Creeping Death</li>
+                <li>8. The Call of Ktulu</li>
+            </ul>
+        <button onclick="mostrarOcultarRTL()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Master of Puppets (1986)</h2>
+            <img src="Imagenes/album3.jpg" alt="Master of Puppets">
+            <p>Una obra maestra del thrash metal, aclamada por la crítica.</p>
+            <ul class="tracklist" id="lista-master-of-puppets">
+                <li>1. Battery</li>
+                <li>2. Master of Puppets</li>
+                <li>3. The Thing That Should Not Be</li>
+                <li>4. Welcome Home (Sanitarium)</li>
+                <li>5. Disposable Heroes</li>
+                <li>6. Disposable Heroes</li>
+                <li>7. Leper Messiah</li>
+                <li>8. Orion</li>
+                <li>9. Damage, Inc</li>
+            </ul>
+        <button onclick="mostrarOcultarMasterOfPuppets()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>...And Justice for All (1988)</h2>
+            <img src="Imagenes/album4.jpg" alt="...And Justice for All">
+            <p>Un álbum épico cargado de justicia y crítica social.</p>
+            <ul class="tracklist" id="lista-and-justice-for-all">
+                <li>1. Blackened</li>
+                <li>2. ...And Justice for All</li>
+                <li>3. Eye of the Beholder</li>
+                <li>4. One</li>
+                <li>5. The Shortest Straw</li>
+                <li>6. Harvester of Sorrow</li>
+                <li>7. The Frayed Ends of Sanity</li>
+                <li>8. To Live Is To Die</li>
+                <li>9. Dyers Eve</li>
+            </ul>
+        <button onclick="mostrarOcultarAndJusticeForAll()">Mostrar/Ocultar Canciones</button>
+        </main>
+
+        <section class="album">
+            <h2>Metallica (1991)</h2>
+            <img src="Imagenes/album5.jpg" alt="Metallica">
+            <p>El "álbum negro", un fenómeno comercial que redefinió el género.</p>
+            <ul class="tracklist" id="lista-black-album">
+                <li>1. Enter Sandman</li>
+                <li>2. Sad But True</li>
+                <li>3. Holier Than Thou</li>
+                <li>4. The Unforgiven</li>
+                <li>5. Wherever I May Roam</li>
+                <li>6. Don't Tread on Me</li>
+                <li>7. Through the Never</li>
+                <li>8. Nothing Else Matters</li>
+                <li>9. Of Wolf and Man</li>
+                <li>10. The God That Failed</li>
+                <li>11. My Friend of Misery</li>
+                <li>12. The Struggle Within</li>
+            </ul>
+        <button onclick="mostrarOcultarBlackAlbum()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Load (1996)</h2>
+            <img src="Imagenes/album6.jpg" alt="Load">
+            <p>Una exploración de nuevos sonidos y temáticas, generando controversia.</p>
+            <ul class="tracklist" id="lista-load">
+                <li>1. Ain't My Bitch</li>
+                <li>2. 2x4</li>
+                <li>3. The House Jack Built</li>
+                <li>4. Until It Sleeps</li>
+                <li>5. King Nothing</li>
+                <li>6. Hero of the Day</li>
+                <li>7. Bleeding Me</li>
+                <li>8. Cure</li>
+                <li>9. Wasting My Hate</li>
+                <li>10. Mama Said</li>
+                <li>11. Thorn Within</li>
+                <li>12. Ronnie</li>
+                <li>13. The Outlaw Torn</li>
+            </ul>
+        <button onclick="mostrarOcultarLoad()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Reload (1997)</h2>
+            <img src="Imagenes/album7.jpg" alt="Reload">
+            <p>La continuación de Load, consolidando la experimentación musical.</p>
+            <ul class="tracklist" id="lista-reload">
+                <li>1. Fuel</li>
+                <li>2. The Memory Remains</li>
+                <li>3. Devil's Dance</li>
+                <li>4. The Unforgiven II</li>
+                <li>5. Better Than You</li>
+                <li>6. Slither</li>
+                <li>7. Carpe Diem Baby</li>
+                <li>8. Bad Seed</li>
+                <li>9. Where the Wild Things Are</li>
+                <li>10. Prince Charming</li>
+                <li>11. Low Man's Lyric</li>
+                <li>12. Attitude</li>
+                <li>13. Fixxer</li>
+            </ul>
+        <button onclick="mostrarOcultarReload()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>St. Anger (2003)</h2>
+            <img src="Imagenes/album8.jpg" alt="St. Anger">
+            <p>Un regreso a las raíces del thrash metal con un sonido crudo y directo.</p>
+            <ul class="tracklist" id="lista-st-anger">
+                <li>1. Frantic</li>
+                <li>2. St. Anger</li>
+                <li>3. Some Kind of Monster</li>
+                <li>4. Dirty Window</li>
+                <li>5. Invisible Kid</li>
+                <li>6. My World</li>
+                <li>7. Shoot Me Again</li>
+                <li>8. Sweet Amber</li>
+                <li>9. The Unnamed Feeling</li>
+                <li>10. Purify</li>
+                <li>11. All Within My Hands</li>
+            </ul>
+        <button onclick="mostrarOcultarStAnger()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Death Magnetic (2008)</h2>
+            <img src="Imagenes/album9.jpg" alt="Death Magnetic">
+            <p>Una vuelta al thrash metal clásico con tintes de modernidad.</p>
+            <ul class="tracklist" id="lista-death-magnetic">
+              <li>1. That Was Just Your Life</li>
+              <li>2. The End of the Line</li>
+              <li>3. Broken, Beat & Scarred</li>
+              <li>4. The Day That Never Comes</li>
+              <li>5. All Nightmare Long</li>
+              <li>6. Cyanide</li>
+              <li>7. The Unforgiven III</li>
+              <li>8. The Judas Kiss</li>
+              <li>9. Suicide and Redemption</li>
+              <li>10. My Apocalypse</li>
+            </ul>
+        <button onclick="mostrarOcultarDeathMagnetic()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+        <section class="album">
+            <h2>Hardwired... to Self-Destruct (2016)</h2>
+            <img src="Imagenes/album10.jpg" alt="Hardwired... to Self-Destruct">
+            <p>Un álbum doble que celebra la fuerza y madurez de la banda.</p>
+            <ul class="tracklist" id="lista-hardwired">
+                <li>1. Hardwired</li>
+                <li>2. Atlas, Rise!</li>
+                <li>3. Now That We're Dead</li>
+                <li>4. Moth into Flame</li>
+                <li>5. Dream No More</li>
+                <li>6. Halo on Fire</li>
+                <li>7. Confusion</li>
+                <li>8. ManUNkind</li>
+                <li>9. Here Comes Revenge</li>
+                <li>10. Am I Savage?</li>
+                <li>11. Murder One</li>
+                <li>12. Spit Out the Bone</li>
+                <li>13. Lords of Summer</li>
+                <li>14. Ronnie Rising Medley</li>
+                <li>15. When a Blind Man Cries</li>
+                <li>16. Remember Tomorrow</li>
+                <li>17. Helpless (Live)</li>
+                <li>18. Hit the Lights (Live)</li>
+                <li>19. The Four Horsemen (Live)</li>
+                <li>20. Ride the Lightning (Live)</li>
+                <li>21. Fade to Black (Live)</li>
+                <li>22. Jump in the Fire (Live)</li>
+                <li>23. For Whom the Bell Tolls (Live)</li>
+                <li>24. Creeping Death (Live)</li>
+                <li>25. Metal Militia (Live)</li>
+                <li>26. Hardwired (Live)</li>
+            </ul>
+        <button onclick="mostrarOcultarHardwired()">Mostrar/Ocultar Canciones</button>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Metallica. Todos los derechos reservados.</p>
+    </footer>
+    <footer>
+        <p>&copy; Dueños del sitio ( Daniel gallardo y Lancelot Castro )</p>
+      </footer>
+</body>
+</html>

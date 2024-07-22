@@ -1,0 +1,79 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #494949;
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  background-color: #333232;
+  color: #424141;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #fdfdfd;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #f1efef;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #2e2e2e;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+.logo {
+  width: 450px;
+  height: 60px;
+  display: block;
+  margin-top: 10px;
+}
+.cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+.cookies__boton {
+  background: initial;
+  border: 2px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  width: 5rem;
+  text-align: center;
+}
